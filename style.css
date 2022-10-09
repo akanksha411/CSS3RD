@@ -1,0 +1,168 @@
+body{
+    background-color: gray;
+} 
+.container{
+    width: 400px;
+    height:150px;
+    background-color:white;
+    border:7px solid red;
+    box-shadow:7px 7px purple;
+    border-radius:20px;
+    position: relative;
+    left:400px;
+}
+.my-para1{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-shadow:1px 1px violet;
+    font-style: italic;
+}
+#box1{
+    height:200px;
+    width:200px;
+    position: relative;
+    left:13px;
+    top:10px;
+}
+.box-in{
+    font-size:20px;
+    color:blue;
+    text-shadow:1px 1px blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
+#my-img{
+    
+    padding:20px 20px 20px 20px ;
+}
+#img1{
+    height:200px;
+    width:200px;
+    position: relative;
+    left:1050px;
+    bottom:210px;  
+}
+#box2{
+    background-color:greenyellow;
+    height:100px;
+    width:300px;
+    position:relative;
+    bottom:150px;
+    left:355px;
+    position: fixed;
+    bottom:0px;
+}
+.box-in2{
+    position: relative;
+    left:350px;
+    bottom:90px;
+}
+.styl-box2{
+    font-size:21px;
+    font-style: italic;
+    color:brown;
+    font-weight: bold;
+}
+.pos-box2{
+    position: relative;
+    left:50px;
+
+}
+#box3{
+    height:200px;
+    width:200px;
+    position: relative;
+    left:10px;
+    bottom:120px;
+}
+.box-in3{
+    color: blue;
+    font-size:20px;
+    text-shadow:1px 1px  blue;
+}
+#my-form{
+    height:200px;
+    width:200px;
+    position: relative;
+    left:1050px;
+    bottom:350px; 
+}
+.in-form{
+    color:blue;
+    text-align: center;
+}
+input{
+    text-align: center;
+    font-size:10px;
+    
+}
+.button{
+    background-color: red;
+    border-radius:50px;
+    text-shadow:1px 1px blueviolet;
+}
+#box2{
+    background-color:greenyellow;
+    height:100px;
+    width:500px;
+    /* position:relative;
+    bottom:150px;
+    left:250px; */
+    position: fixed;
+    bottom:0px;
+}
+.box-in2{
+    position: relative;
+    left:350px;
+    bottom:90px;
+}
+.styl-box2{
+    font-size:21px;
+    font-style: italic;
+    color:brown;
+    font-weight: bold;
+}
+.pos-box2{
+    position: relative;
+    left:50px;
+}
+.foter2{
+    height:600px;
+    width:610px;
+    background-color:rgb(207, 113, 113);
+    /* position: relative;
+    left:350px;
+    top:50px; */
+    margin:20px auto;
+    border:7px solid purple;
+}
+.foot-in1{
+    height:250px;
+    width:300px;
+    background-color:white;
+    font-size:14px;
+    font-weight:bold;
+    text-align: center;
+    font-style: italic;
+}
+#fot2{
+    margin-top:-270px;
+    margin-left:310px; 
+
+} 
+#foot-in3{
+    height:255px;
+    width:609px;
+    /* position:relative;
+    bottom:270px;
+    left:400px; */
+    margin-left:363px;
+    margin-top:-283px;
+    
+}
+@media only screen and (min-width:1370px){
+    #foot-in3{
+        margin-left:473px;
+    }
+}
