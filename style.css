@@ -163,6 +163,9 @@ input{
 }
 @media only screen and (min-width:1370px){
     #foot-in3{
-        margin-left:473px;
+        margin-left:465px;
+    }
+    #box2{
+        margin-left:400px;
     }
 }
